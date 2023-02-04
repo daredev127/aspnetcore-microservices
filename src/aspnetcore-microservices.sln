@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{A6E8D727-52C3-4F61-A5A2-47D066E6AF56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{F847FA12-A967-4CE0-96E2-FEE85D42A351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{F847FA12-A967-4CE0-96E2-FEE85D42A351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{7D0EF924-AE6A-47F0-AF61-CAE35C81D2A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{F847FA12-A967-4CE0-96E2-FEE85D42A351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F847FA12-A967-4CE0-96E2-FEE85D42A351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F847FA12-A967-4CE0-96E2-FEE85D42A351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0EF924-AE6A-47F0-AF61-CAE35C81D2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0EF924-AE6A-47F0-AF61-CAE35C81D2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0EF924-AE6A-47F0-AF61-CAE35C81D2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0EF924-AE6A-47F0-AF61-CAE35C81D2A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{0F0E56B7-B728-4CA5-BCB3-791B30EB548B} = {FA64FBB4-42AD-4F80-B6DC-B2DB5C38BB25}
 		{D3B088D3-AF7D-4B93-AAD9-46CBB210F1D1} = {36599550-2E23-483F-AC4B-DCBA3668FF8E}
 		{F847FA12-A967-4CE0-96E2-FEE85D42A351} = {A6E8D727-52C3-4F61-A5A2-47D066E6AF56}
+		{7D0EF924-AE6A-47F0-AF61-CAE35C81D2A3} = {A6E8D727-52C3-4F61-A5A2-47D066E6AF56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {286A8471-64CC-4D25-BB4D-9914A5B53DE9}
